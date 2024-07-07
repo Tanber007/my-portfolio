@@ -9,8 +9,9 @@
 
 
 
-*{
-    margin: 0%;
+header{
+    padding: 0;
+    margin: 0;
 }
 /* shared style */
 .section-title{
@@ -181,7 +182,17 @@ footer{
 .footer-col{
 width: 50%;
 }
-footer input[type="text"]{
+footer input[type="text"], footer input[type="email"]{
+    height: 32px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 24px;
+    border: none;
+}
+footer textarea{
     height: 32px;
     border-radius: 5px;
     background-color: white;
